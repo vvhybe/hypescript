@@ -22,8 +22,7 @@
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit",
     "lint": "eslint",
-    "lint:fix": "eslint --fix",
-    "prepare": "husky install"
+    "lint:fix": "eslint --fix"
   },
   "repository": {
     "type": "git",
