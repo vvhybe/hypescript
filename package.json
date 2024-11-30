@@ -1,0 +1,74 @@
+{
+  "name": "hypescript",
+  "version": "0.1.0",
+  "description": "A fully typed types for non-typed utility types in typescript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "prepublishOnly": "pnpm build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvhybe/hypescript.git"
+  },
+  "keywords": [
+    "ts",
+    "js",
+    "javascript",
+    "typescript",
+    "utility",
+    "lib",
+    "utils",
+    "utility-types",
+    "type",
+    "types",
+    "helpers"
+  ],
+  "author": "vvhybe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vvhybe/hypescript/issues"
+  },
+  "homepage": "https://github.com/vvhybe/hypescript#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "@types/node": "^22.10.1",
+    "@typescript-eslint/eslint-plugin": "^8.16.0",
+    "@typescript-eslint/parser": "^8.16.0",
+    "eslint": "^9.16.0",
+    "globals": "^15.12.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.2.10",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.16.0",
+    "vitest": "^2.1.6"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "eslint --fix",
+      "vitest related --run"
+    ]
+  }
+}
