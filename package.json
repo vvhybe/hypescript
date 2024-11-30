@@ -25,7 +25,8 @@
     "lint:fix": "eslint --fix"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "@vvhybe:registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
