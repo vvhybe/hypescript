@@ -1,6 +1,6 @@
 {
   "name": "toothscript",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A fully typed types for non-typed utility types in typescript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
