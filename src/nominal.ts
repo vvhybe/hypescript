@@ -1,5 +1,3 @@
-// src/nominal.ts
-
 /**
  * Creates a nominal type by adding a unique tag.
  */

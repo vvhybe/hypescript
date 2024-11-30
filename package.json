@@ -1,5 +1,5 @@
 {
-  "name": "hypescript",
+  "name": "toothscript",
   "version": "0.1.0",
   "description": "A fully typed types for non-typed utility types in typescript",
   "main": "dist/index.js",
@@ -30,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vvhybe/hypescript.git"
+    "url": "git+https://github.com/vvhybe/toothscript.git"
   },
   "keywords": [
     "ts",
@@ -48,9 +48,9 @@
   "author": "vvhybe",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vvhybe/hypescript/issues"
+    "url": "https://github.com/vvhybe/toothscript/issues"
   },
-  "homepage": "https://github.com/vvhybe/hypescript#readme",
+  "homepage": "https://github.com/vvhybe/toothscript#readme",
   "devDependencies": {
     "@eslint/js": "^9.16.0",
     "@types/node": "^22.10.1",

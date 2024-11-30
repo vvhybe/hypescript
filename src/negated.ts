@@ -1,5 +1,3 @@
-// src/negated.ts
-
 /**
  * Exclude specific properties from a type.
  */

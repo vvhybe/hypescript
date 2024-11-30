@@ -1,4 +1,3 @@
-
 /**
  * Recursively makes all properties of a type optional.
  * 
