@@ -1,3 +1,6 @@
+
+![toothscript-shaped](https://github.com/user-attachments/assets/3d390e2d-cde6-4b4c-9319-3568e9c98a07)
+
 # 🦷 ToothScript
 
 Welcome to the 🦷 **ToothScript** Types package! This package provides a curated collection of modular and reusable utility types designed to enhance your TypeScript experience without cluttering the global type namespace. Each utility type is crafted with flexibility and modularity in mind, avoiding conflicts with existing TypeScript behavior while offering precise, documented solutions for real-world use cases.
